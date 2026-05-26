@@ -1,0 +1,1832 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python",
+      "version": "3.10.0"
+    },
+    "colab": {
+      "provenance": []
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "b473f14350764ec1901d4d574457c9ac": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_4730b8a61c584514a325332dee3c6c1f",
+              "IPY_MODEL_a0b832d35c6540b78d0eebb8e68a3c3b",
+              "IPY_MODEL_07de24524bcb4264a97db99931d1921e"
+            ],
+            "layout": "IPY_MODEL_90d2a3b6f97e4b9f8d821970569239d7"
+          }
+        },
+        "4730b8a61c584514a325332dee3c6c1f": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_7b0821569ff44b11a16b45a2afc1e016",
+            "placeholder": "​",
+            "style": "IPY_MODEL_523e8b99e0974f65bf0ceca7c2c7c67c",
+            "value": "Loading weights: 100%"
+          }
+        },
+        "a0b832d35c6540b78d0eebb8e68a3c3b": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_18ef695ca3444708b901f53ecef9e307",
+            "max": 199,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_f4841862f7104542853c5eed4816c093",
+            "value": 199
+          }
+        },
+        "07de24524bcb4264a97db99931d1921e": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_c31da57798294d89b8491211d27086fd",
+            "placeholder": "​",
+            "style": "IPY_MODEL_9881bbfbfed949c1a19d215cb6d0ef50",
+            "value": " 199/199 [00:00&lt;00:00, 498.83it/s, Materializing param=pooler.dense.weight]"
+          }
+        },
+        "90d2a3b6f97e4b9f8d821970569239d7": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "7b0821569ff44b11a16b45a2afc1e016": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "523e8b99e0974f65bf0ceca7c2c7c67c": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "18ef695ca3444708b901f53ecef9e307": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "f4841862f7104542853c5eed4816c093": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "c31da57798294d89b8491211d27086fd": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "9881bbfbfed949c1a19d215cb6d0ef50": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "bd7c417be3434b57b1435cc721781ceb": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_1be175f7b8cb4fcfae27300615adb464",
+              "IPY_MODEL_70208839130a45f8b8a69c650a76912d",
+              "IPY_MODEL_afc674594fc94ed1841dffda4c5653b8"
+            ],
+            "layout": "IPY_MODEL_4f12bb6a52404a83bf39d77b803af1a7"
+          }
+        },
+        "1be175f7b8cb4fcfae27300615adb464": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_f68222c06fc844e785f35826bcfce4d4",
+            "placeholder": "​",
+            "style": "IPY_MODEL_5daa44445b434266bd491ec5c0ee4d61",
+            "value": "Batches: 100%"
+          }
+        },
+        "70208839130a45f8b8a69c650a76912d": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_ee8cc2952e844260b1a3aa0804d16847",
+            "max": 1,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_c0146eab8ca64beba57e986e5ce27225",
+            "value": 1
+          }
+        },
+        "afc674594fc94ed1841dffda4c5653b8": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_4010b8b93edc41a0a1c2c6b71f780ee3",
+            "placeholder": "​",
+            "style": "IPY_MODEL_e4c4558c56d0444f995dffda37ede366",
+            "value": " 1/1 [00:02&lt;00:00,  2.24s/it]"
+          }
+        },
+        "4f12bb6a52404a83bf39d77b803af1a7": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "f68222c06fc844e785f35826bcfce4d4": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "5daa44445b434266bd491ec5c0ee4d61": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "ee8cc2952e844260b1a3aa0804d16847": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "c0146eab8ca64beba57e986e5ce27225": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "4010b8b93edc41a0a1c2c6b71f780ee3": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "e4c4558c56d0444f995dffda37ede366": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "intro"
+      },
+      "source": [
+        "# 🤖 Bot RAG con Pandas + Mistral AI\n",
+        "### Genera respuestas inteligentes a partir de tus datos de ventas\n",
+        "\n",
+        "**Flujo del sistema:**\n",
+        "```\n",
+        "ventas.csv → Pandas (normalización) → Corpus → Embeddings → FAISS → Mistral → Respuesta\n",
+        "```\n",
+        "\n",
+        "**Requisitos:**\n",
+        "- Google Colab\n",
+        "- API Key de Mistral AI → https://console.mistral.ai"
+      ],
+      "id": "intro"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso1-title"
+      },
+      "source": [
+        "## 📦 Paso 1: Instalación de dependencias"
+      ],
+      "id": "paso1-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 12,
+      "metadata": {
+        "id": "install"
+      },
+      "outputs": [],
+      "source": [
+        "!pip install -q --upgrade sentence-transformers faiss-cpu pandas numpy scikit-learn mistralai"
+      ],
+      "id": "install"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4cc59838"
+      },
+      "source": [
+        "Para instalar bibliotecas de Python en Google Colab, puedes usar el siguiente comando en una celda de código:"
+      ],
+      "id": "4cc59838"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6a204f25",
+        "outputId": "f149d7ab-ba29-495d-aa75-9768978cb118"
+      },
+      "source": [
+        "# Reemplaza 'nombre_de_la_biblioteca' por el nombre real de la biblioteca que quieres instalar\n",
+        "!pip install nombre_de_la_biblioteca"
+      ],
+      "id": "6a204f25",
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\u001b[31mERROR: Could not find a version that satisfies the requirement nombre_de_la_biblioteca (from versions: none)\u001b[0m\u001b[31m\n",
+            "\u001b[0m\u001b[31mERROR: No matching distribution found for nombre_de_la_biblioteca\u001b[0m\u001b[31m\n",
+            "\u001b[0m"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "feaf4f3b"
+      },
+      "source": [
+        "Si necesitas actualizar una biblioteca existente, puedes añadir la bandera `--upgrade`:\n",
+        "\n",
+        "`!pip install --upgrade nombre_de_la_biblioteca`\n",
+        "\n",
+        "Y si quieres instalarla de forma silenciosa (sin mostrar muchos mensajes de progreso), puedes usar `-q`:\n",
+        "\n",
+        "`!pip install -q nombre_de_la_biblioteca`"
+      ],
+      "id": "feaf4f3b"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso2-title"
+      },
+      "source": [
+        "## 🔑 Paso 2: Configurar API Key de Mistral"
+      ],
+      "id": "paso2-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 14,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "api_key",
+        "outputId": "b98b3335-1c6a-4f35-ff0f-fb3cef095c41"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "⚠️  Usando API Key directa (considera usar Secrets)\n",
+            "🔐 Key configurada: TU_API_K...\n"
+          ]
+        }
+      ],
+      "source": [
+        "import os\n",
+        "from google.colab import userdata\n",
+        "\n",
+        "# Opción A: Usar Secrets de Colab (recomendado)\n",
+        "# Ve a: 🔑 Secrets (panel izquierdo) → agregar MISTRAL_API_KEY\n",
+        "try:\n",
+        "    MISTRAL_API_KEY = userdata.get('MISTRAL_API_KEY')\n",
+        "    print('✅ API Key cargada desde Secrets de Colab')\n",
+        "except:\n",
+        "    # Opción B: Pegar directamente (menos seguro)\n",
+        "    MISTRAL_API_KEY = 'TU_API_KEY_AQUI'  # ← reemplazar\n",
+        "    print('⚠️  Usando API Key directa (considera usar Secrets)')\n",
+        "\n",
+        "os.environ['MISTRAL_API_KEY'] = MISTRAL_API_KEY\n",
+        "print(f'🔐 Key configurada: {MISTRAL_API_KEY[:8]}...')"
+      ],
+      "id": "api_key"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso3-title"
+      },
+      "source": [
+        "## 📊 Paso 3: Cargar datos de ventas"
+      ],
+      "id": "paso3-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 15,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 327
+        },
+        "id": "cargar_datos",
+        "outputId": "ca6dd9f4-1f6a-4768-a135-851f1e8b7507"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "✅ Datos cargados\n",
+            "📋 Filas: 15 | Columnas: 7\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "        fecha           producto   categoria  cantidad  precio_unitario  \\\n",
+              "0  2024-01-15         Laptop Pro  Tecnología         3          1500.00   \n",
+              "1  2024-01-16  Mouse Inalámbrico  Accesorios        25            29.99   \n",
+              "2  2024-01-17         Monitor 4K  Tecnología         5           450.00   \n",
+              "3  2024-01-18   Teclado Mecánico  Accesorios        10            89.50   \n",
+              "4  2024-01-19         Laptop Pro  Tecnología         2          1500.00   \n",
+              "\n",
+              "        vendedor region  \n",
+              "0      Ana López  Norte  \n",
+              "1    Carlos Ruiz    Sur  \n",
+              "2      Ana López  Norte  \n",
+              "3   María García   Este  \n",
+              "4  Luis Martínez  Oeste  "
+            ],
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>fecha</th>\n",
+              "      <th>producto</th>\n",
+              "      <th>categoria</th>\n",
+              "      <th>cantidad</th>\n",
+              "      <th>precio_unitario</th>\n",
+              "      <th>vendedor</th>\n",
+              "      <th>region</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>2024-01-15</td>\n",
+              "      <td>Laptop Pro</td>\n",
+              "      <td>Tecnología</td>\n",
+              "      <td>3</td>\n",
+              "      <td>1500.00</td>\n",
+              "      <td>Ana López</td>\n",
+              "      <td>Norte</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>2024-01-16</td>\n",
+              "      <td>Mouse Inalámbrico</td>\n",
+              "      <td>Accesorios</td>\n",
+              "      <td>25</td>\n",
+              "      <td>29.99</td>\n",
+              "      <td>Carlos Ruiz</td>\n",
+              "      <td>Sur</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>2024-01-17</td>\n",
+              "      <td>Monitor 4K</td>\n",
+              "      <td>Tecnología</td>\n",
+              "      <td>5</td>\n",
+              "      <td>450.00</td>\n",
+              "      <td>Ana López</td>\n",
+              "      <td>Norte</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>2024-01-18</td>\n",
+              "      <td>Teclado Mecánico</td>\n",
+              "      <td>Accesorios</td>\n",
+              "      <td>10</td>\n",
+              "      <td>89.50</td>\n",
+              "      <td>María García</td>\n",
+              "      <td>Este</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>2024-01-19</td>\n",
+              "      <td>Laptop Pro</td>\n",
+              "      <td>Tecnología</td>\n",
+              "      <td>2</td>\n",
+              "      <td>1500.00</td>\n",
+              "      <td>Luis Martínez</td>\n",
+              "      <td>Oeste</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ],
+      "source": [
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "from io import StringIO\n",
+        "\n",
+        "# ──────────────────────────────────────────────────\n",
+        "# Para usar TU archivo: sube ventas.csv a Colab y\n",
+        "# reemplaza por: df = pd.read_csv('/content/ventas.csv')\n",
+        "# ──────────────────────────────────────────────────\n",
+        "data_csv = \"\"\"fecha,producto,categoria,cantidad,precio_unitario,vendedor,region\n",
+        "2024-01-15,Laptop Pro,Tecnología,3,1500.00,Ana López,Norte\n",
+        "2024-01-16,Mouse Inalámbrico,Accesorios,25,29.99,Carlos Ruiz,Sur\n",
+        "2024-01-17,Monitor 4K,Tecnología,5,450.00,Ana López,Norte\n",
+        "2024-01-18,Teclado Mecánico,Accesorios,10,89.50,María García,Este\n",
+        "2024-01-19,Laptop Pro,Tecnología,2,1500.00,Luis Martínez,Oeste\n",
+        "2024-01-20,Auriculares BT,Accesorios,15,120.00,Carlos Ruiz,Sur\n",
+        "2024-02-01,Monitor 4K,Tecnología,8,450.00,María García,Este\n",
+        "2024-02-03,Webcam HD,Accesorios,20,75.00,Ana López,Norte\n",
+        "2024-02-10,Laptop Pro,Tecnología,1,1500.00,Luis Martínez,Oeste\n",
+        "2024-02-15,Mouse Inalámbrico,Accesorios,30,29.99,Carlos Ruiz,Sur\n",
+        "2024-03-01,Tablet 10,Tecnología,6,350.00,María García,Este\n",
+        "2024-03-05,Laptop Pro,Tecnología,4,1550.00,Ana López,Norte\n",
+        "2024-03-10,Auriculares BT,Accesorios,12,120.00,Luis Martínez,Oeste\n",
+        "2024-03-20,Monitor 4K,Tecnología,3,460.00,Carlos Ruiz,Sur\n",
+        "2024-03-25,Webcam HD,Accesorios,18,75.00,María García,Este\"\"\"\n",
+        "\n",
+        "df = pd.read_csv(StringIO(data_csv))\n",
+        "print('✅ Datos cargados')\n",
+        "print(f'📋 Filas: {len(df)} | Columnas: {len(df.columns)}')\n",
+        "df.head()"
+      ],
+      "id": "cargar_datos"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso4-title"
+      },
+      "source": [
+        "## 🧹 Paso 4: Normalización con Pandas"
+      ],
+      "id": "paso4-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 16,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 486
+        },
+        "id": "normalizar",
+        "outputId": "4b66f6a5-f3e0-4f80-ce79-b4373f11e436"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "🗑️  Duplicados eliminados: 0\n",
+            "✅ Limpieza completada\n",
+            "✅ Columnas nuevas: total_venta, trimestre\n",
+            "✅ MinMaxScaler aplicado a: ['cantidad', 'precio_unitario', 'total_venta']\n",
+            "✅ LabelEncoder aplicado a: categoria, region\n",
+            "\n",
+            "📊 DataFrame normalizado:\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "/tmp/ipykernel_9069/549640240.py:18: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.\n",
+            "See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.\n",
+            "  for col in self.df.select_dtypes(include='object').columns:\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "       fecha           producto   categoria  cantidad  precio_unitario  \\\n",
+              "0 2024-01-15         Laptop Pro  Tecnología         3          1500.00   \n",
+              "1 2024-01-16  Mouse Inalámbrico  Accesorios        25            29.99   \n",
+              "2 2024-01-17         Monitor 4K  Tecnología         5           450.00   \n",
+              "3 2024-01-18   Teclado Mecánico  Accesorios        10            89.50   \n",
+              "4 2024-01-19         Laptop Pro  Tecnología         2          1500.00   \n",
+              "\n",
+              "        vendedor region  total_venta trimestre  cantidad_norm  \\\n",
+              "0      Ana López  Norte      4500.00        Q1       0.068966   \n",
+              "1    Carlos Ruiz    Sur       749.75        Q1       0.827586   \n",
+              "2      Ana López  Norte      2250.00        Q1       0.137931   \n",
+              "3   María García   Este       895.00        Q1       0.310345   \n",
+              "4  Luis Martínez  Oeste      3000.00        Q1       0.034483   \n",
+              "\n",
+              "   precio_unitario_norm  total_venta_norm  categoria_cod  region_cod  \n",
+              "0              0.967105          0.688088              1           1  \n",
+              "1              0.000000          0.000000              0           3  \n",
+              "2              0.276321          0.275263              1           1  \n",
+              "3              0.039151          0.026650              0           0  \n",
+              "4              0.967105          0.412871              1           2  "
+            ],
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>fecha</th>\n",
+              "      <th>producto</th>\n",
+              "      <th>categoria</th>\n",
+              "      <th>cantidad</th>\n",
+              "      <th>precio_unitario</th>\n",
+              "      <th>vendedor</th>\n",
+              "      <th>region</th>\n",
+              "      <th>total_venta</th>\n",
+              "      <th>trimestre</th>\n",
+              "      <th>cantidad_norm</th>\n",
+              "      <th>precio_unitario_norm</th>\n",
+              "      <th>total_venta_norm</th>\n",
+              "      <th>categoria_cod</th>\n",
+              "      <th>region_cod</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>2024-01-15</td>\n",
+              "      <td>Laptop Pro</td>\n",
+              "      <td>Tecnología</td>\n",
+              "      <td>3</td>\n",
+              "      <td>1500.00</td>\n",
+              "      <td>Ana López</td>\n",
+              "      <td>Norte</td>\n",
+              "      <td>4500.00</td>\n",
+              "      <td>Q1</td>\n",
+              "      <td>0.068966</td>\n",
+              "      <td>0.967105</td>\n",
+              "      <td>0.688088</td>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>2024-01-16</td>\n",
+              "      <td>Mouse Inalámbrico</td>\n",
+              "      <td>Accesorios</td>\n",
+              "      <td>25</td>\n",
+              "      <td>29.99</td>\n",
+              "      <td>Carlos Ruiz</td>\n",
+              "      <td>Sur</td>\n",
+              "      <td>749.75</td>\n",
+              "      <td>Q1</td>\n",
+              "      <td>0.827586</td>\n",
+              "      <td>0.000000</td>\n",
+              "      <td>0.000000</td>\n",
+              "      <td>0</td>\n",
+              "      <td>3</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>2024-01-17</td>\n",
+              "      <td>Monitor 4K</td>\n",
+              "      <td>Tecnología</td>\n",
+              "      <td>5</td>\n",
+              "      <td>450.00</td>\n",
+              "      <td>Ana López</td>\n",
+              "      <td>Norte</td>\n",
+              "      <td>2250.00</td>\n",
+              "      <td>Q1</td>\n",
+              "      <td>0.137931</td>\n",
+              "      <td>0.276321</td>\n",
+              "      <td>0.275263</td>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>2024-01-18</td>\n",
+              "      <td>Teclado Mecánico</td>\n",
+              "      <td>Accesorios</td>\n",
+              "      <td>10</td>\n",
+              "      <td>89.50</td>\n",
+              "      <td>María García</td>\n",
+              "      <td>Este</td>\n",
+              "      <td>895.00</td>\n",
+              "      <td>Q1</td>\n",
+              "      <td>0.310345</td>\n",
+              "      <td>0.039151</td>\n",
+              "      <td>0.026650</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>2024-01-19</td>\n",
+              "      <td>Laptop Pro</td>\n",
+              "      <td>Tecnología</td>\n",
+              "      <td>2</td>\n",
+              "      <td>1500.00</td>\n",
+              "      <td>Luis Martínez</td>\n",
+              "      <td>Oeste</td>\n",
+              "      <td>3000.00</td>\n",
+              "      <td>Q1</td>\n",
+              "      <td>0.034483</td>\n",
+              "      <td>0.967105</td>\n",
+              "      <td>0.412871</td>\n",
+              "      <td>1</td>\n",
+              "      <td>2</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 16
+        }
+      ],
+      "source": [
+        "from sklearn.preprocessing import MinMaxScaler, LabelEncoder\n",
+        "\n",
+        "class NormalizadorVentas:\n",
+        "    \"\"\"Limpia, enriquece y normaliza el DataFrame de ventas\"\"\"\n",
+        "\n",
+        "    def __init__(self, df):\n",
+        "        self.df = df.copy()\n",
+        "        self.scaler = MinMaxScaler()\n",
+        "        self.encoders = {}\n",
+        "\n",
+        "    def limpiar(self):\n",
+        "        self.df['fecha'] = pd.to_datetime(self.df['fecha'])\n",
+        "        before = len(self.df)\n",
+        "        self.df = self.df.drop_duplicates()\n",
+        "        print(f'🗑️  Duplicados eliminados: {before - len(self.df)}')\n",
+        "        for col in self.df.select_dtypes(include='number').columns:\n",
+        "            self.df[col] = self.df[col].fillna(self.df[col].median())\n",
+        "        for col in self.df.select_dtypes(include='object').columns:\n",
+        "            self.df[col] = self.df[col].fillna(self.df[col].mode()[0])\n",
+        "        print('✅ Limpieza completada')\n",
+        "        return self\n",
+        "\n",
+        "    def enriquecer(self):\n",
+        "        self.df['total_venta'] = self.df['cantidad'] * self.df['precio_unitario']\n",
+        "        self.df['trimestre'] = self.df['fecha'].dt.quarter.map({1:'Q1',2:'Q2',3:'Q3',4:'Q4'})\n",
+        "        print('✅ Columnas nuevas: total_venta, trimestre')\n",
+        "        return self\n",
+        "\n",
+        "    def normalizar_numericas(self):\n",
+        "        cols = ['cantidad', 'precio_unitario', 'total_venta']\n",
+        "        self.df[[c + '_norm' for c in cols]] = self.scaler.fit_transform(self.df[cols])\n",
+        "        print(f'✅ MinMaxScaler aplicado a: {cols}')\n",
+        "        return self\n",
+        "\n",
+        "    def codificar_categoricas(self):\n",
+        "        for col in ['categoria', 'region']:\n",
+        "            le = LabelEncoder()\n",
+        "            self.df[col + '_cod'] = le.fit_transform(self.df[col])\n",
+        "            self.encoders[col] = le\n",
+        "        print('✅ LabelEncoder aplicado a: categoria, region')\n",
+        "        return self\n",
+        "\n",
+        "    def obtener_df(self):\n",
+        "        return self.df\n",
+        "\n",
+        "\n",
+        "norm = NormalizadorVentas(df)\n",
+        "norm.limpiar().enriquecer().normalizar_numericas().codificar_categoricas()\n",
+        "df_norm = norm.obtener_df()\n",
+        "print('\\n📊 DataFrame normalizado:')\n",
+        "df_norm.head()"
+      ],
+      "id": "normalizar"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso5-title"
+      },
+      "source": [
+        "## 📚 Paso 5: Generar Corpus de conocimiento"
+      ],
+      "id": "paso5-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 17,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "corpus",
+        "outputId": "a137f249-d51f-45c8-e0b1-23be3bbfdccb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "✅ Corpus: 26 documentos generados\n",
+            "\n",
+            "Ejemplo:\n",
+            "Venta del 15/01/2024: 3 unidades de 'Laptop Pro' (categoría Tecnología) a $1500.00 c/u. Total: $4500.00. Vendedor: Ana López, región: Norte, trimestre: Q1.\n"
+          ]
+        }
+      ],
+      "source": [
+        "class GeneradorCorpus:\n",
+        "    \"\"\"Convierte el DataFrame a documentos de texto para RAG\"\"\"\n",
+        "\n",
+        "    def __init__(self, df):\n",
+        "        self.df = df\n",
+        "        self.corpus = []\n",
+        "\n",
+        "    def generar_documentos_por_fila(self):\n",
+        "        for _, row in self.df.iterrows():\n",
+        "            doc = (\n",
+        "                f\"Venta del {row['fecha'].strftime('%d/%m/%Y')}: \"\n",
+        "                f\"{int(row['cantidad'])} unidades de '{row['producto']}' \"\n",
+        "                f\"(categoría {row['categoria']}) a ${row['precio_unitario']:.2f} c/u. \"\n",
+        "                f\"Total: ${row['total_venta']:.2f}. \"\n",
+        "                f\"Vendedor: {row['vendedor']}, región: {row['region']}, \"\n",
+        "                f\"trimestre: {row['trimestre']}.\"\n",
+        "            )\n",
+        "            self.corpus.append(doc)\n",
+        "        return self\n",
+        "\n",
+        "    def generar_resumen_por_producto(self):\n",
+        "        resumen = self.df.groupby('producto').agg(\n",
+        "            total_vendido=('cantidad','sum'),\n",
+        "            ingresos_totales=('total_venta','sum'),\n",
+        "            precio_promedio=('precio_unitario','mean'),\n",
+        "            num_transacciones=('fecha','count')\n",
+        "        ).reset_index()\n",
+        "        for _, row in resumen.iterrows():\n",
+        "            doc = (\n",
+        "                f\"Resumen producto '{row['producto']}': \"\n",
+        "                f\"{int(row['total_vendido'])} unidades en {int(row['num_transacciones'])} ventas. \"\n",
+        "                f\"Ingresos totales: ${row['ingresos_totales']:.2f}. \"\n",
+        "                f\"Precio promedio: ${row['precio_promedio']:.2f}.\"\n",
+        "            )\n",
+        "            self.corpus.append(doc)\n",
+        "        return self\n",
+        "\n",
+        "    def generar_resumen_por_vendedor(self):\n",
+        "        resumen = self.df.groupby('vendedor').agg(\n",
+        "            ingresos=('total_venta','sum'),\n",
+        "            ventas=('fecha','count')\n",
+        "        ).reset_index().sort_values('ingresos', ascending=False)\n",
+        "        for _, row in resumen.iterrows():\n",
+        "            doc = (\n",
+        "                f\"Vendedor {row['vendedor']}: \"\n",
+        "                f\"{int(row['ventas'])} ventas, ingresos totales ${row['ingresos']:.2f}.\"\n",
+        "            )\n",
+        "            self.corpus.append(doc)\n",
+        "        return self\n",
+        "\n",
+        "    def obtener_corpus(self):\n",
+        "        return self.corpus\n",
+        "\n",
+        "\n",
+        "gen = GeneradorCorpus(df_norm)\n",
+        "gen.generar_documentos_por_fila().generar_resumen_por_producto().generar_resumen_por_vendedor()\n",
+        "corpus = gen.obtener_corpus()\n",
+        "\n",
+        "print(f'✅ Corpus: {len(corpus)} documentos generados')\n",
+        "print(f'\\nEjemplo:\\n{corpus[0]}')"
+      ],
+      "id": "corpus"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso6-title"
+      },
+      "source": [
+        "## 🔍 Paso 6: Embeddings y búsqueda vectorial con FAISS"
+      ],
+      "id": "paso6-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 18,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 339,
+          "referenced_widgets": [
+            "b473f14350764ec1901d4d574457c9ac",
+            "4730b8a61c584514a325332dee3c6c1f",
+            "a0b832d35c6540b78d0eebb8e68a3c3b",
+            "07de24524bcb4264a97db99931d1921e",
+            "90d2a3b6f97e4b9f8d821970569239d7",
+            "7b0821569ff44b11a16b45a2afc1e016",
+            "523e8b99e0974f65bf0ceca7c2c7c67c",
+            "18ef695ca3444708b901f53ecef9e307",
+            "f4841862f7104542853c5eed4816c093",
+            "c31da57798294d89b8491211d27086fd",
+            "9881bbfbfed949c1a19d215cb6d0ef50",
+            "bd7c417be3434b57b1435cc721781ceb",
+            "1be175f7b8cb4fcfae27300615adb464",
+            "70208839130a45f8b8a69c650a76912d",
+            "afc674594fc94ed1841dffda4c5653b8",
+            "4f12bb6a52404a83bf39d77b803af1a7",
+            "f68222c06fc844e785f35826bcfce4d4",
+            "5daa44445b434266bd491ec5c0ee4d61",
+            "ee8cc2952e844260b1a3aa0804d16847",
+            "c0146eab8ca64beba57e986e5ce27225",
+            "4010b8b93edc41a0a1c2c6b71f780ee3",
+            "e4c4558c56d0444f995dffda37ede366"
+          ]
+        },
+        "id": "embeddings",
+        "outputId": "d6570e5c-9f72-42a0-969b-6c52e03ebb1a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "⏳ Cargando modelo de embeddings multilingüe...\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "b473f14350764ec1901d4d574457c9ac"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "BertModel LOAD REPORT from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2\n",
+            "Key                     | Status     |  | \n",
+            "------------------------+------------+--+-\n",
+            "embeddings.position_ids | UNEXPECTED |  | \n",
+            "\n",
+            "Notes:\n",
+            "- UNEXPECTED\t:can be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "⏳ Generando embeddings del corpus...\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Batches:   0%|          | 0/1 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "bd7c417be3434b57b1435cc721781ceb"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "✅ Índice FAISS listo\n",
+            "   Documentos indexados : 26\n",
+            "   Dimensión de vectores: 384\n"
+          ]
+        }
+      ],
+      "source": [
+        "from sentence_transformers import SentenceTransformer\n",
+        "import faiss\n",
+        "import numpy as np\n",
+        "\n",
+        "print('⏳ Cargando modelo de embeddings multilingüe...')\n",
+        "modelo_embed = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')\n",
+        "\n",
+        "print('⏳ Generando embeddings del corpus...')\n",
+        "embeddings = modelo_embed.encode(corpus, show_progress_bar=True)\n",
+        "embeddings = np.array(embeddings).astype('float32')\n",
+        "\n",
+        "# Índice FAISS para búsqueda semántica\n",
+        "dimension = embeddings.shape[1]\n",
+        "index = faiss.IndexFlatL2(dimension)\n",
+        "index.add(embeddings)\n",
+        "\n",
+        "print(f'\\n✅ Índice FAISS listo')\n",
+        "print(f'   Documentos indexados : {index.ntotal}')\n",
+        "print(f'   Dimensión de vectores: {dimension}')"
+      ],
+      "id": "embeddings"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso7-title"
+      },
+      "source": [
+        "## 🌟 Paso 7: Bot RAG con Mistral AI como generador"
+      ],
+      "id": "paso7-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 22,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 418
+        },
+        "id": "bot_mistral",
+        "outputId": "9ae86446-2cb1-4370-f733-79a0742a064c"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "ImportError",
+          "evalue": "cannot import name 'MistralClient' from 'mistralai.client' (/usr/local/lib/python3.12/dist-packages/mistralai/client/__init__.py)",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mImportError\u001b[0m                               Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_9069/3785802484.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0;32mfrom\u001b[0m \u001b[0mmistralai\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mclient\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mMistralClient\u001b[0m \u001b[0;31m# Corrección: Cambiar importación y clase\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;32mclass\u001b[0m \u001b[0mBotRAGMistral\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m     \"\"\"\n\u001b[1;32m      5\u001b[0m     \u001b[0mBot\u001b[0m \u001b[0mRAG\u001b[0m \u001b[0mque\u001b[0m \u001b[0musa\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mImportError\u001b[0m: cannot import name 'MistralClient' from 'mistralai.client' (/usr/local/lib/python3.12/dist-packages/mistralai/client/__init__.py)",
+            "",
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0;32m\nNOTE: If your import is failing due to a missing package, you can\nmanually install dependencies using either !pip or !apt.\n\nTo view examples of installing some common dependencies, click the\n\"Open Examples\" button below.\n\u001b[0;31m---------------------------------------------------------------------------\u001b[0m\n"
+          ],
+          "errorDetails": {
+            "actions": [
+              {
+                "action": "open_url",
+                "actionText": "Open Examples",
+                "url": "/notebooks/snippets/importing_libraries.ipynb"
+              }
+            ]
+          }
+        }
+      ],
+      "source": [
+        "from mistralai.client import MistralClient # Corrección: Cambiar importación y clase\n",
+        "\n",
+        "class BotRAGMistral:\n",
+        "    \"\"\"\n",
+        "    Bot RAG que usa:\n",
+        "      - sentence-transformers + FAISS  → Recuperación de contexto\n",
+        "      - Mistral AI (mistral-small)     → Generación de respuestas\n",
+        "\n",
+        "    Flujo por pregunta:\n",
+        "      1. Embed pregunta\n",
+        "      2. Buscar top-k docs en FAISS\n",
+        "      3. Construir prompt con contexto\n",
+        "      4. Llamar a Mistral API\n",
+        "      5. Retornar respuesta\n",
+        "    \"\"\"\n",
+        "\n",
+        "    def __init__(self, corpus, index, modelo_embed, df, api_key, top_k=4,\n",
+        "                 modelo_mistral='mistral-small-latest'):\n",
+        "        self.corpus        = corpus\n",
+        "        self.index         = index\n",
+        "        self.modelo_embed  = modelo_embed\n",
+        "        self.df            = df\n",
+        "        self.top_k         = top_k\n",
+        "        self.modelo_mistral = modelo_mistral\n",
+        "        self.client        = MistralClient(api_key=api_key) # Corrección: Instanciar MistralClient\n",
+        "        self.historial     = []   # conversación multi-turno\n",
+        "\n",
+        "        # System prompt con contexto del negocio\n",
+        "        total = df['total_venta'].sum() if 'total_venta' in df.columns else 0\n",
+        "        productos = df['producto'].nunique() if 'producto' in df.columns else 0\n",
+        "        self.system_prompt = (\n",
+        "            f\"Eres un asistente de análisis de ventas experto y amigable. \"\n",
+        "            f\"Tienes acceso a una base de datos con {len(df)} registros de ventas, \"\n",
+        "            f\"{productos} productos distintos e ingresos totales de ${total:,.2f}. \"\n",
+        "            f\"Responde siempre en español, de forma clara y concisa. \"\n",
+        "            f\"Usa los datos del contexto proporcionado para responder con precisión. \"\n",
+        "            f\"Si el contexto no es suficiente, indícalo honestamente.\"\n",
+        "        )\n",
+        "\n",
+        "    def recuperar_contexto(self, pregunta):\n",
+        "        \"\"\"Busca los documentos más similares en FAISS\"\"\"\n",
+        "        q_emb = self.modelo_embed.encode([pregunta]).astype('float32')\n",
+        "        distancias, indices = self.index.search(q_emb, self.top_k)\n",
+        "        docs = [self.corpus[i] for i in indices[0]]\n",
+        "        return docs, distancias[0]\n",
+        "\n",
+        "    def construir_prompt(self, pregunta, docs):\n",
+        "        \"\"\"Arma el mensaje usuario con contexto RAG incrustado\"\"\"\n",
+        "        contexto = '\\n'.join([f'  {i+1}. {d}' for i, d in enumerate(docs)])\n",
+        "        return (\n",
+        "            f\"CONTEXTO RELEVANTE (recuperado de los datos):\\n{contexto}\\n\\n\"\n",
+        "            f\"PREGUNTA: {pregunta}\"\n",
+        "        )\n",
+        "\n",
+        "    def preguntar(self, pregunta, verbose=True):\n",
+        "        \"\"\"Hace una pregunta al bot y retorna la respuesta de Mistral\"\"\"\n",
+        "        if verbose:\n",
+        "            print(f\"\\n{'='*60}\")\n",
+        "            print(f'❓ {pregunta}')\n",
+        "            print('='*60)\n",
+        "\n",
+        "        # 1. Recuperar contexto relevante\n",
+        "        docs, distancias = self.recuperar_contexto(pregunta)\n",
+        "\n",
+        "        if verbose:\n",
+        "            print(f'\\n📚 Contexto recuperado (top {self.top_k}):')\n",
+        "            for i, (doc, dist) in enumerate(zip(docs, distancias), 1):\n",
+        "                print(f'  [{i}] dist={dist:.2f} → {doc[:90]}...')\n",
+        "\n",
+        "        # 2. Construir mensaje con RAG\n",
+        "        prompt_con_contexto = self.construir_prompt(pregunta, docs)\n",
+        "\n",
+        "        # 3. Mantener historial para conversación multi-turno\n",
+        "        self.historial.append({'role': 'user', 'content': prompt_con_contexto})\n",
+        "\n",
+        "        # 4. Llamar a Mistral AI\n",
+        "        try:\n",
+        "            respuesta_api = self.client.chat.complete(\n",
+        "                model=self.modelo_mistral,\n",
+        "                messages=[\n",
+        "                    {'role': 'system', 'content': self.system_prompt},\n",
+        "                    *self.historial\n",
+        "                ]\n",
+        "            )\n",
+        "            respuesta_texto = respuesta_api.choices[0].message.content\n",
+        "\n",
+        "        except Exception as e:\n",
+        "            respuesta_texto = f'❌ Error al llamar a Mistral: {e}'\n",
+        "\n",
+        "        # 5. Agregar respuesta al historial\n",
+        "        self.historial.append({'role': 'assistant', 'content': respuesta_texto})\n",
+        "\n",
+        "        if verbose:\n",
+        "            print(f'\\n🤖 Mistral responde:\\n{respuesta_texto}')\n",
+        "\n",
+        "        return respuesta_texto\n",
+        "\n",
+        "    def resetear_historial(self):\n",
+        "        \"\"\"Limpia la conversación para empezar de nuevo\"\"\"\n",
+        "        self.historial = []\n",
+        "        print('🔄 Historial de conversación reseteado')\n",
+        "\n",
+        "\n",
+        "# ── Instanciar el bot ──\n",
+        "bot = BotRAGMistral(\n",
+        "    corpus        = corpus,\n",
+        "    index         = index,\n",
+        "    modelo_embed  = modelo_embed,\n",
+        "    df            = df_norm,\n",
+        "    api_key       = TiagoLopez,\n",
+        "    top_k         = 4,\n",
+        "    modelo_mistral= 'mistral-small-latest'  # opciones: mistral-small-latest, mistral-medium-latest, mistral-large-latest\n",
+        ")\n",
+        "\n",
+        "print('✅ Bot RAG + Mistral listo!')"
+      ],
+      "id": "bot_mistral"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso8-title"
+      },
+      "source": [
+        "## 💬 Paso 8: Preguntas de prueba"
+      ],
+      "id": "paso8-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "demo"
+      },
+      "outputs": [],
+      "source": [
+        "preguntas_demo = [\n",
+        "    '¿Cuál es el producto que más ingresos generó?',\n",
+        "    '¿Quién es el mejor vendedor y cuánto vendió?',\n",
+        "    '¿Qué región tuvo el mejor desempeño?',\n",
+        "    '¿Cómo evolucionaron las ventas de Laptop Pro en el trimestre?',\n",
+        "]\n",
+        "\n",
+        "bot.resetear_historial()\n",
+        "for pregunta in preguntas_demo:\n",
+        "    bot.preguntar(pregunta)"
+      ],
+      "id": "demo"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso9-title"
+      },
+      "source": [
+        "## 🎯 Paso 9: Modo interactivo (chat en consola)"
+      ],
+      "id": "paso9-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "interactivo"
+      },
+      "outputs": [],
+      "source": [
+        "bot.resetear_historial()\n",
+        "print('🤖 Bot RAG Ventas (Mistral) — escribe \"salir\" para terminar\\n')\n",
+        "\n",
+        "while True:\n",
+        "    pregunta = input('❓ Tu pregunta: ').strip()\n",
+        "    if not pregunta:\n",
+        "        continue\n",
+        "    if pregunta.lower() in ['salir', 'exit', 'quit']:\n",
+        "        print('👋 ¡Hasta luego!')\n",
+        "        break\n",
+        "    bot.preguntar(pregunta)"
+      ],
+      "id": "interactivo"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "paso10-title"
+      },
+      "source": [
+        "## 📈 Paso 10 (Opcional): Visualizaciones"
+      ],
+      "id": "paso10-title"
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "viz"
+      },
+      "outputs": [],
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "fig, axes = plt.subplots(1, 3, figsize=(16, 5))\n",
+        "fig.suptitle('Dashboard de Ventas', fontsize=16, fontweight='bold')\n",
+        "\n",
+        "df_norm.groupby('producto')['total_venta'].sum().sort_values().plot(\n",
+        "    kind='barh', ax=axes[0], color='steelblue')\n",
+        "axes[0].set_title('Ingresos por Producto')\n",
+        "axes[0].set_xlabel('Ingresos ($)')\n",
+        "\n",
+        "df_norm.groupby('vendedor')['total_venta'].sum().sort_values().plot(\n",
+        "    kind='barh', ax=axes[1], color='coral')\n",
+        "axes[1].set_title('Ingresos por Vendedor')\n",
+        "axes[1].set_xlabel('Ingresos ($)')\n",
+        "\n",
+        "df_norm.groupby('region')['total_venta'].sum().plot(\n",
+        "    kind='pie', ax=axes[2], autopct='%1.1f%%', startangle=90)\n",
+        "axes[2].set_title('Distribución por Región')\n",
+        "axes[2].set_ylabel('')\n",
+        "\n",
+        "plt.tight_layout()\n",
+        "plt.savefig('dashboard_ventas.png', dpi=150, bbox_inches='tight')\n",
+        "plt.show()\n",
+        "print('✅ Dashboard guardado')"
+      ],
+      "id": "viz"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "resumen"
+      },
+      "source": [
+        "---\n",
+        "## 🗺️ Arquitectura completa\n",
+        "\n",
+        "```\n",
+        "ventas.csv\n",
+        "    │\n",
+        "    ▼\n",
+        "NormalizadorVentas (Pandas)\n",
+        "  ├── limpiar()             → nulos, duplicados, tipos\n",
+        "  ├── enriquecer()          → total_venta, trimestre\n",
+        "  ├── normalizar_numericas()→ MinMaxScaler (0-1)\n",
+        "  └── codificar_categoricas()→ LabelEncoder\n",
+        "    │\n",
+        "    ▼\n",
+        "GeneradorCorpus → lista de strings en español\n",
+        "    │\n",
+        "    ▼\n",
+        "SentenceTransformer (multilingual) → embeddings float32\n",
+        "    │\n",
+        "    ▼\n",
+        "FAISS IndexFlatL2 → búsqueda semántica top-k\n",
+        "    │\n",
+        "    ▼\n",
+        "BotRAGMistral.preguntar(query)\n",
+        "  ├── recuperar_contexto()  → top-4 docs relevantes\n",
+        "  ├── construir_prompt()    → contexto + pregunta\n",
+        "  ├── Mistral API call      → mistral-small-latest\n",
+        "  └── historial multi-turno → conversación continua\n",
+        "```\n",
+        "\n",
+        "### 💡 Cambiar modelo Mistral\n",
+        "```python\n",
+        "# Más barato y rápido (recomendado para pruebas)\n",
+        "modelo_mistral='mistral-small-latest'\n",
+        "\n",
+        "# Más inteligente\n",
+        "modelo_mistral='mistral-large-latest'\n",
+        "```\n",
+        "\n",
+        "### 🔧 Usar tu propio ventas.csv\n",
+        "```python\n",
+        "from google.colab import files\n",
+        "uploaded = files.upload()          # sube el archivo\n",
+        "df = pd.read_csv('ventas.csv')     # carga tu CSV\n",
+        "```"
+      ],
+      "id": "resumen"
+    }
+  ]
+}
